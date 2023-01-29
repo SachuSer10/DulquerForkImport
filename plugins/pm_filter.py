@@ -900,11 +900,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('🤍Mᴀɴᴜᴀʟ FIʟᴛᴇʀ🤍', callback_data='manuelfilter'),
+            InlineKeyboardButton('🖤Aᴜᴛᴏ FIʟᴛᴇʀ🖤', callback_data='autofilter')
         ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs', callback_data='global_filters')
+            InlineKeyboardButton('🌍Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs🌍', callback_data='global_filters')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -937,14 +937,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
+            InlineKeyboardButton('🗑️FIʟᴛᴇʀs🗑️', callback_data='filters'),
+            InlineKeyboardButton('🗃️Fɪʟᴇ Sᴛᴏʀᴇ🗃️', callback_data='store_file')
         ], [
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅs', callback_data='extra')
+            InlineKeyboardButton('🖇️Cᴏɴɴᴇᴄᴛɪᴏɴ🖇️', callback_data='coct'),
+            InlineKeyboardButton('⚒️Exᴛʀᴀ Mᴏᴅs⚒️', callback_data='extra')
         ], [
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('🏡Hᴏᴍᴇ🏡', callback_data='start'),
+            InlineKeyboardButton('🚧Sᴛᴀᴛᴜs🚧', callback_data='stats')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
